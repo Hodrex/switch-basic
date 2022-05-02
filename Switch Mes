@@ -1,0 +1,33 @@
+public class SwitchMesExemplo {
+
+	public static void main(String[] args) {
+	//Especificando número do mês
+		int month=5;
+		String monthString="";
+		//declaração switch
+		switch(month) {
+		
+		//Declaração case dentro do bloco switch
+		case 1: monthString= "1-Janeiro";
+		break;
+		
+		case 2: monthString= "2-Fevereiro";
+		break;
+		
+		case 3: monthString= "3-Março";
+		break;
+		
+		case 4: monthString="4-Abril";
+		break;
+		
+		case 5: monthString="5-Maio";
+		break;
+		
+		default:System.out.println("Mes invalido!");
+		
+
+  }
+  	//Escrevendo o mês de acordo com o número
+  		System.out.println(monthString);
+ }
+}
